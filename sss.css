@@ -14,3 +14,9 @@ body {
   align-items: center;
   width: 100%;
 }
+.container-fluid a {
+  color: antiquewhite;
+}
+.container-fluid a:hover {
+  color: red;
+}
