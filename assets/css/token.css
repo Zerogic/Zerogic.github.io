@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
 
 :root {
-  --c1: #ff5100;
+  --c1: #ff0000;
   --b2: #222;
   --b3: #333;
   --w1: #fff;
@@ -51,7 +51,7 @@ ul.skills2 {
 }
 
 ul.skills3 {
-  --c1: #ff4500;
+  --c1: rgb(255, 0, 0);
 }
 
 ul.skills:before {
@@ -98,7 +98,7 @@ ul.skills:hover:before,
 label:hover + ul.skills:before,
 input:checked + label + ul.skills:before {
   transition: var(--t1);
-  background-color: #ff4500;
+  background-color: #ff0000;
   background-position: 0 50%;
 }
 ul.skills:hover:after,
@@ -106,7 +106,7 @@ label:hover + ul.skills:after,
 input:checked + label + ul.skills:after {
   top: -20px;
   transition: var(--t1);
-  border-top-color: #ff4500;
+  border-top-color: #ff0000;
 }
 
 ul.skills2:hover:before,
@@ -123,12 +123,12 @@ input:checked + label + ul.skills2:after {
 ul.skills3:hover:before,
 label:hover + ul.skills3:before,
 input:checked + label + ul.skills3:before {
-  background-color: #ff4500;
+  background-color: rgb(255, 0, 0);
 }
 ul.skills3:hover:after,
 label:hover + ul.skills3:after,
 input:checked + label + ul.skills3:after {
-  border-top-color: #ff4500;
+  border-top-color: #ff0000;
 }
 
 ul.skills li {
@@ -174,7 +174,7 @@ ul.skills li:after {
   content: "";
   height: 11px;
   margin: 0 0 2px 0;
-  background: #ff4500;
+  background: #ff0000;
   position: absolute;
   box-shadow: 0px 0px 10px 1px #ff6f0066;
   left: 3px;
